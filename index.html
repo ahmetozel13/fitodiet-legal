@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - FitoDiyet: Phyto &amp; Health</title>
+    <style>
+        :root {
+            --primary: #2E6F40;
+            --primary-container: #D1E7D7;
+            --surface: #FFFFFF;
+            --background: #F7FAF7;
+            --on-surface: #1E2923;
+            --on-surface-variant: #526057;
+            --outline: #DDE5DF;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--on-surface);
+            line-height: 1.65;
+            margin: 0;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: var(--surface);
+            border-radius: 20px;
+            padding: 36px 32px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+            border: 1px solid var(--outline);
+        }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .brand-badge {
+            background-color: var(--primary-container);
+            color: var(--primary);
+            font-weight: 700;
+            padding: 6px 14px;
+            border-radius: 12px;
+            font-size: 14px;
+        }
+        h1 {
+            color: var(--primary);
+            margin: 0 0 8px 0;
+            font-size: 28px;
+            font-weight: 800;
+        }
+        .effective-date {
+            color: var(--on-surface-variant);
+            font-size: 14px;
+            margin-bottom: 28px;
+        }
+        h2 {
+            color: var(--primary);
+            font-size: 20px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            border-bottom: 2px solid var(--primary-container);
+            padding-bottom: 6px;
+        }
+        p, li {
+            color: var(--on-surface-variant);
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .disclaimer-box {
+            background: #FEF3C7;
+            border-left: 4px solid #D97706;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 24px 0;
+        }
+        .disclaimer-box p {
+            color: #92400E;
+            margin: 0;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: var(--on-surface-variant);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="brand">
+            <span class="brand-badge">Official Policy</span>
+            <span>FitoDiyet Wellness Engine</span>
+        </div>
+        <p style="text-align:right"><a href="#tr">Türkçe / KVKK ↓</a></p>
+        <h1>Privacy Policy</h1>
+        <div class="effective-date">Effective Date: September 25, 2026 | Last Updated: September 28, 2026</div>
+
+        <p>This Privacy Policy explains how <strong>FitoDiyet</strong> ("we", "our", or "the app") manages, processes, and protects your information. We prioritize user privacy through an <strong>offline-first architecture</strong>: your health, nutrition, and personal information are stored strictly on your device.</p>
+
+        <div class="disclaimer-box">
+            <p><strong>Medical Notice:</strong> FitoDiyet provides nutritional tracking and phytotherapy educational guidance. The app does not provide medical diagnoses or prescriptions and is not a substitute for professional healthcare advice.</p>
+        </div>
+
+        <h2>1. Information We Collect and Store</h2>
+        <p>All data you enter into FitoDiyet remains strictly within the local Android SQLite Room database on your device:</p>
+        <ul>
+            <li><strong>Physical Profile Data:</strong> Name, age, gender, height, current weight, and target weight.</li>
+            <li><strong>Health Safety Profile:</strong> Self-reported chronic health conditions and regular medications, used solely for local contraindication screening with medicinal herbs.</li>
+            <li><strong>Nutrition & Meal Records:</strong> Foods, portion sizes, calories, and macronutrient breakdowns (protein, carbohydrates, fats).</li>
+            <li><strong>Hydration History:</strong> Logged water quantities and reminder preferences.</li>
+            <li><strong>Wellness Check-up Inputs:</strong> Self-selected symptoms and, optionally, your current menstrual cycle phase, used only on-device to tailor educational suggestions.</li>
+            <li><strong>Profile Photo (optional):</strong> An image you choose, copied into the app's private storage on your device.</li>
+        </ul>
+
+        <h2>2. Data Storage, Transmission & Sharing</h2>
+        <ul>
+            <li><strong>No Cloud Account Required:</strong> FitoDiyet functions without user registration or cloud authentication.</li>
+            <li><strong>No Remote Transmission of Personal or Health Data:</strong> The information listed in Section 1 is never transmitted to our servers, external APIs or advertising networks.</li>
+            <li><strong>Crash Reporting (Firebase Crashlytics):</strong> To keep the app stable, crash reports and technical diagnostics are sent to Google Firebase Crashlytics. These include the stack trace, device model, operating system version, app version, a random Firebase installation identifier and a few app-state flags (e.g. selected unit system). They do <em>not</em> include your name, health profile, meals or water logs. Crash data is retained by Firebase for 90 days. You can turn crash reporting off at any time under <em>Profile &gt; System &gt; Crash Reporting</em>. See <a href="https://firebase.google.com/support/privacy">Firebase Privacy</a>.</li>
+            <li><strong>Device Backup:</strong> If you have enabled Android Backup on your device, Android may include the app's local data in your encrypted Google account backup so it can be restored on a new device. This is controlled by your device settings.</li>
+            <li><strong>No Sale of Personal Data:</strong> We do not sell, rent, or monetize your health or personal information.</li>
+        </ul>
+
+        <h2>3. Device Permissions Used</h2>
+        <ul>
+            <li><strong>POST_NOTIFICATIONS (Android 13+):</strong> Used optionally and exclusively to deliver local, scheduled water reminders via Android WorkManager.</li>
+            <li><strong>VIBRATE:</strong> Used to provide subtle haptic feedback during timer and reminder alerts.</li>
+        </ul>
+
+        <h2>4. User Rights & Data Deletion (GDPR & CCPA Compliance)</h2>
+        <p>You have full autonomy over your data at all times:</p>
+        <ul>
+            <li><strong>Erase All Data / Profile Reset:</strong> You can permanently wipe all meal history, hydration logs, and physical profile settings at any time directly in the app under <em>Profile &gt; Account &amp; Data Management &gt; Erase All Data &amp; Reset Profile</em>.</li>
+            <li><strong>App Uninstallation:</strong> Uninstalling the application completely removes all locally stored application data and databases from your device.</li>
+        </ul>
+
+        <h2>5. Children's Privacy</h2>
+        <p>FitoDiyet is intended for general audiences and adults seeking healthy lifestyle management. It is intended for users aged 18 and over; we do not knowingly collect personal data from children.</p>
+
+        <h2>6. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy periodically. Any updates will be reflected on this page with a revised "Last Updated" date.</p>
+
+        <h2>7. Contact Information</h2>
+        <p>For questions or feedback regarding this Privacy Policy, please contact our privacy support team at: <a href="mailto:aozel13@gmail.com">aozel13@gmail.com</a> (Ao Software Studio).</p>
+
+
+        <hr style="margin:48px 0;border:none;border-top:1px solid #e2e8f0">
+
+        <h1 id="tr" lang="tr">Gizlilik Politikası ve KVKK Aydınlatma Metni</h1>
+        <div class="effective-date" lang="tr">Yürürlük: 25 Eylül 2026 | Son güncelleme: 30 Eylül 2026</div>
+        <div lang="tr">
+        <p><strong>Veri sorumlusu:</strong> Ao Software Studio · İletişim: <a href="mailto:aozel13@gmail.com">aozel13@gmail.com</a></p>
+        <p>Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) m.10 kapsamında FitoDiyet: Phyto &amp; Health uygulamasının ("uygulama") kişisel verileri nasıl işlediğini açıklar.</p>
+
+        <div class="disclaimer-box"><p><strong>Tıbbi uyarı:</strong> Uygulama beslenme takibi ve fitoterapi hakkında genel bilgi sunar; tıbbi teşhis veya tedavi sağlamaz ve hekim tavsiyesinin yerine geçmez.</p></div>
+
+        <h2>1. İşlenen veriler ve saklandığı yer</h2>
+        <p>Aşağıdaki veriler <strong>yalnızca cihazınızda</strong> saklanır; sunucularımıza gönderilmez:</p>
+        <ul>
+            <li>Profil: ad, yaş, cinsiyet, boy, kilo, hedef kilo, aktivite düzeyi</li>
+            <li>Sağlık verileri (KVKK m.6 özel nitelikli veri): kendi seçtiğiniz kronik durumlar, kullandığınız ilaç grupları, semptomlar ve isteğe bağlı adet döngüsü fazı</li>
+            <li>Öğün, kalori, makro ve su kayıtları; isteğe bağlı profil fotoğrafı</li>
+        </ul>
+        <p>Sağlık verileri yalnızca sizin açık tercihinizle girilir ve yalnızca cihaz üzerinde bitki–ilaç/durum etkileşim uyarısı göstermek amacıyla kullanılır. Bu verileri görmeyiz, aktarmayız, satmayız.</p>
+
+        <h2>2. Cihazdan çıkan tek veri: çökme raporları</h2>
+        <p>Uygulamanın kararlılığı için hata raporları Google Firebase Crashlytics'e (Google LLC, ABD) gönderilir: hata kaydı, cihaz modeli, işletim sistemi ve uygulama sürümü, rastgele bir kurulum kimliği ve birkaç teknik ayar (ör. birim sistemi). Adınız, sağlık profiliniz, öğün veya su kayıtlarınız <strong>gönderilmez</strong>. Veriler 90 gün saklanır. Hukuki sebep: uygulamanın güvenli çalışması için meşru menfaat (KVKK m.5/2-f); yurt dışına aktarım Firebase veri işleme koşulları kapsamındadır. Çökme raporlamayı <em>Profil &gt; Sistem &gt; Çökme Raporlama</em> ayarından istediğiniz an kapatabilirsiniz.</p>
+
+        <h2>3. Cihaz yedeklemesi</h2>
+        <p>Cihazınızda Android yedeklemesini açtıysanız Android, uygulama verilerini Google hesabınızdaki şifreli yedeğe dahil edebilir. Bu, cihaz ayarlarınızla kontrol edilir.</p>
+
+        <h2>4. İzinler</h2>
+        <ul>
+            <li><strong>Bildirim (Android 13+):</strong> yalnızca su hatırlatıcıları için; ayarlardan kapatılabilir.</li>
+            <li><strong>Titreşim:</strong> dokunsal geri bildirim için.</li>
+            <li><strong>İnternet:</strong> yalnızca çökme raporlarının gönderimi için.</li>
+        </ul>
+
+        <h2>5. Haklarınız (KVKK m.11)</h2>
+        <p>Verilerinizin işlenip işlenmediğini öğrenme, düzeltme, silme ve itiraz haklarına sahipsiniz. Cihazdaki tüm verilerinizi <em>Profil &gt; Tüm Verileri Sil</em> ile anında silebilir veya uygulamayı kaldırabilirsiniz. Diğer talepleriniz için <a href="mailto:aozel13@gmail.com">aozel13@gmail.com</a> adresine yazabilirsiniz; en geç 30 gün içinde yanıtlanır.</p>
+
+        <h2>6. Çocuklar</h2>
+        <p>Uygulama 18 yaş üstü kullanıcılar için tasarlanmıştır; bilerek çocuklardan veri toplanmaz.</p>
+
+        <h2>7. Değişiklikler</h2>
+        <p>Bu politika güncellenirse bu sayfadaki "Son güncelleme" tarihi değişir.</p>
+        </div>
+        <footer>
+            &copy; 2026 Ao Software Studio · FitoDiyet: Phyto &amp; Health
+        </footer>
+    </div>
+</body>
+</html>
